@@ -1,12 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 //import './App.css'
 
 function App() {
   const [muffins, setMuffins] = useState(20)
   const [cookies,setCookies] =  useState(20)
-  const [totalSold, setTotalSold] = useState(20)
+  const [totalSold, setTotalSold] = useState(0)
 
   return (
     <div>
@@ -23,8 +21,6 @@ function App() {
       </div>
     </div>
   )
-   
-   
 }
 
 export default App
