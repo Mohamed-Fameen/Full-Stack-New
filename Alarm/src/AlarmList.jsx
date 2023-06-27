@@ -1,9 +1,10 @@
 import React from 'react'
+import {alarmList} from './assets/alarmArray'
 
-function AlarmList(props) {
+function AlarmList() {
   return (
     <div>
-        {props.alarmList.map((alarm)=> (
+        {alarmList.map((alarm)=> (
             <li key={alarm}>{alarm}</li>
         ))}
     </div>
